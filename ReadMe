@@ -1,0 +1,9 @@
+#This is a simple app to find locations where our service is offered
+## To run the code 
+### This application has the following dependencies 
+    python
+    python3
+    pip
+    flask  = pip install -U Flask
+### to execute the app run...    
+flask run --host=0.0.0.0 --port=5000
