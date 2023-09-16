@@ -1,4 +1,4 @@
-From alpine:3.7
+FROM alpine:3.7
 
 RUN apk update && \
     apk add python python3 && \

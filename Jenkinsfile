@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Download Code from GHub') {
             steps {
-                sh 'git clone https://github.com/techbleat/containers101.git'
+                sh 'git clone https://github.com/cobidennis/nationapp.git'
             }
         }
         stage ('Build Image') {
