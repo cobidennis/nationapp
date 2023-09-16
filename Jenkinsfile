@@ -12,7 +12,7 @@ pipeline {
         stage ('Build Image') {
             steps {
                 sh '''
-                    cd containers101
+                    cd nationapp
                     docker build -t cobidennis/nationapp:$version .
                 '''
             }
